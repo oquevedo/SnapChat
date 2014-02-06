@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0030C3BB18A278EA00EBAABB /* IngesarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030C3BA18A278EA00EBAABB /* IngesarViewController.m */; };
+		00A061F518A155B400081E62 /* SABuzonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A061F418A155B400081E62 /* SABuzonViewController.m */; };
 		00BFD4DD18A137A000F8A83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4DC18A137A000F8A83D /* Foundation.framework */; };
 		00BFD4DF18A137A000F8A83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4DE18A137A000F8A83D /* CoreGraphics.framework */; };
 		00BFD4E118A137A000F8A83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4E018A137A000F8A83D /* UIKit.framework */; };
@@ -19,6 +21,23 @@
 		00BFD4F818A137A000F8A83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4E018A137A000F8A83D /* UIKit.framework */; };
 		00BFD50018A137A000F8A83D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD4FE18A137A000F8A83D /* InfoPlist.strings */; };
 		00BFD50218A137A000F8A83D /* SnapChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BFD50118A137A000F8A83D /* SnapChatTests.m */; };
+		00BFD50C18A137E800F8A83D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */; };
+		00BFD51018A13B1400F8A83D /* Buzon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD50F18A13B1400F8A83D /* Buzon.png */; };
+		00BFD51218A13B1B00F8A83D /* Amigos.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD51118A13B1B00F8A83D /* Amigos.png */; };
+		00BFD51418A13B2200F8A83D /* Camara.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD51318A13B2200F8A83D /* Camara.png */; };
+		00BFD51718A140AD00F8A83D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51618A140AD00F8A83D /* Parse.framework */; };
+		00BFD52118A1412500F8A83D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51818A1412400F8A83D /* AudioToolbox.framework */; };
+		00BFD52218A1412500F8A83D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51918A1412500F8A83D /* CFNetwork.framework */; };
+		00BFD52318A1412500F8A83D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51A18A1412500F8A83D /* CoreLocation.framework */; };
+		00BFD52418A1412500F8A83D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51B18A1412500F8A83D /* libz.dylib */; };
+		00BFD52518A1412500F8A83D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51C18A1412500F8A83D /* MobileCoreServices.framework */; };
+		00BFD52618A1412500F8A83D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51D18A1412500F8A83D /* QuartzCore.framework */; };
+		00BFD52718A1412500F8A83D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51E18A1412500F8A83D /* Security.framework */; };
+		00BFD52818A1412500F8A83D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51F18A1412500F8A83D /* StoreKit.framework */; };
+		00BFD52918A1412500F8A83D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD52018A1412500F8A83D /* SystemConfiguration.framework */; };
+		00F545D118A2D35F00C3E566 /* RegistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D018A2D35F00C3E566 /* RegistroViewController.m */; };
+		00F545D418A3C24F00C3E566 /* SAMenuPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D318A3C24F00C3E566 /* SAMenuPrincipal.m */; };
+		00F545D818A3F94D00C3E566 /* EditarAmigosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0030C3B918A278EA00EBAABB /* IngesarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngesarViewController.h; sourceTree = "<group>"; };
+		0030C3BA18A278EA00EBAABB /* IngesarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngesarViewController.m; sourceTree = "<group>"; };
+		00A061F318A155B400081E62 /* SABuzonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABuzonViewController.h; sourceTree = "<group>"; };
+		00A061F418A155B400081E62 /* SABuzonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SABuzonViewController.m; sourceTree = "<group>"; };
 		00BFD4D918A137A000F8A83D /* SnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BFD4DC18A137A000F8A83D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00BFD4DE18A137A000F8A83D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +71,26 @@
 		00BFD4FD18A137A000F8A83D /* SnapChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapChatTests-Info.plist"; sourceTree = "<group>"; };
 		00BFD4FF18A137A000F8A83D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00BFD50118A137A000F8A83D /* SnapChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChatTests.m; sourceTree = "<group>"; };
+		00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		00BFD50F18A13B1400F8A83D /* Buzon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buzon.png; sourceTree = "<group>"; };
+		00BFD51118A13B1B00F8A83D /* Amigos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amigos.png; sourceTree = "<group>"; };
+		00BFD51318A13B2200F8A83D /* Camara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camara.png; sourceTree = "<group>"; };
+		00BFD51618A140AD00F8A83D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		00BFD51818A1412400F8A83D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00BFD51918A1412500F8A83D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		00BFD51A18A1412500F8A83D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00BFD51B18A1412500F8A83D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		00BFD51C18A1412500F8A83D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		00BFD51D18A1412500F8A83D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00BFD51E18A1412500F8A83D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		00BFD51F18A1412500F8A83D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		00BFD52018A1412500F8A83D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00F545CF18A2D35F00C3E566 /* RegistroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroViewController.h; sourceTree = "<group>"; };
+		00F545D018A2D35F00C3E566 /* RegistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroViewController.m; sourceTree = "<group>"; };
+		00F545D218A3C24F00C3E566 /* SAMenuPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuPrincipal.h; sourceTree = "<group>"; };
+		00F545D318A3C24F00C3E566 /* SAMenuPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuPrincipal.m; sourceTree = "<group>"; };
+		00F545D618A3F94D00C3E566 /* EditarAmigosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarAmigosViewController.h; sourceTree = "<group>"; };
+		00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarAmigosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +98,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BFD52118A1412500F8A83D /* AudioToolbox.framework in Frameworks */,
+				00BFD52218A1412500F8A83D /* CFNetwork.framework in Frameworks */,
+				00BFD52318A1412500F8A83D /* CoreLocation.framework in Frameworks */,
+				00BFD52418A1412500F8A83D /* libz.dylib in Frameworks */,
+				00BFD52518A1412500F8A83D /* MobileCoreServices.framework in Frameworks */,
+				00BFD52618A1412500F8A83D /* QuartzCore.framework in Frameworks */,
+				00BFD52718A1412500F8A83D /* Security.framework in Frameworks */,
+				00BFD52818A1412500F8A83D /* StoreKit.framework in Frameworks */,
+				00BFD52918A1412500F8A83D /* SystemConfiguration.framework in Frameworks */,
 				00BFD4DF18A137A000F8A83D /* CoreGraphics.framework in Frameworks */,
 				00BFD4E118A137A000F8A83D /* UIKit.framework in Frameworks */,
+				00BFD51718A140AD00F8A83D /* Parse.framework in Frameworks */,
 				00BFD4DD18A137A000F8A83D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +149,15 @@
 		00BFD4DB18A137A000F8A83D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00BFD51818A1412400F8A83D /* AudioToolbox.framework */,
+				00BFD51918A1412500F8A83D /* CFNetwork.framework */,
+				00BFD51A18A1412500F8A83D /* CoreLocation.framework */,
+				00BFD51B18A1412500F8A83D /* libz.dylib */,
+				00BFD51C18A1412500F8A83D /* MobileCoreServices.framework */,
+				00BFD51D18A1412500F8A83D /* QuartzCore.framework */,
+				00BFD51E18A1412500F8A83D /* Security.framework */,
+				00BFD51F18A1412500F8A83D /* StoreKit.framework */,
+				00BFD52018A1412500F8A83D /* SystemConfiguration.framework */,
 				00BFD4DC18A137A000F8A83D /* Foundation.framework */,
 				00BFD4DE18A137A000F8A83D /* CoreGraphics.framework */,
 				00BFD4E018A137A000F8A83D /* UIKit.framework */,
@@ -107,8 +169,15 @@
 		00BFD4E218A137A000F8A83D /* SnapChat */ = {
 			isa = PBXGroup;
 			children = (
+				00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */,
+				00A061F318A155B400081E62 /* SABuzonViewController.h */,
+				00A061F418A155B400081E62 /* SABuzonViewController.m */,
 				00BFD4EB18A137A000F8A83D /* SAAppDelegate.h */,
+				00F545D618A3F94D00C3E566 /* EditarAmigosViewController.h */,
+				00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */,
 				00BFD4EC18A137A000F8A83D /* SAAppDelegate.m */,
+				00F545D518A3F90C00C3E566 /* Inicio */,
+				00BFD51518A13D8E00F8A83D /* Fotos */,
 				00BFD4EE18A137A000F8A83D /* Images.xcassets */,
 				00BFD4E318A137A000F8A83D /* Supporting Files */,
 			);
@@ -118,6 +187,7 @@
 		00BFD4E318A137A000F8A83D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00BFD51618A140AD00F8A83D /* Parse.framework */,
 				00BFD4E418A137A000F8A83D /* SnapChat-Info.plist */,
 				00BFD4E518A137A000F8A83D /* InfoPlist.strings */,
 				00BFD4E818A137A000F8A83D /* main.m */,
@@ -142,6 +212,29 @@
 				00BFD4FE18A137A000F8A83D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00BFD51518A13D8E00F8A83D /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				00BFD50F18A13B1400F8A83D /* Buzon.png */,
+				00BFD51118A13B1B00F8A83D /* Amigos.png */,
+				00BFD51318A13B2200F8A83D /* Camara.png */,
+			);
+			name = Fotos;
+			sourceTree = "<group>";
+		};
+		00F545D518A3F90C00C3E566 /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				00F545D218A3C24F00C3E566 /* SAMenuPrincipal.h */,
+				00F545D318A3C24F00C3E566 /* SAMenuPrincipal.m */,
+				00F545CF18A2D35F00C3E566 /* RegistroViewController.h */,
+				00F545D018A2D35F00C3E566 /* RegistroViewController.m */,
+				0030C3B918A278EA00EBAABB /* IngesarViewController.h */,
+				0030C3BA18A278EA00EBAABB /* IngesarViewController.m */,
+			);
+			name = Inicio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +313,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BFD50C18A137E800F8A83D /* MainStoryboard.storyboard in Resources */,
+				00BFD51218A13B1B00F8A83D /* Amigos.png in Resources */,
 				00BFD4E718A137A000F8A83D /* InfoPlist.strings in Resources */,
+				00BFD51018A13B1400F8A83D /* Buzon.png in Resources */,
+				00BFD51418A13B2200F8A83D /* Camara.png in Resources */,
 				00BFD4EF18A137A000F8A83D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F545D118A2D35F00C3E566 /* RegistroViewController.m in Sources */,
 				00BFD4ED18A137A000F8A83D /* SAAppDelegate.m in Sources */,
+				00A061F518A155B400081E62 /* SABuzonViewController.m in Sources */,
+				00F545D818A3F94D00C3E566 /* EditarAmigosViewController.m in Sources */,
+				00F545D418A3C24F00C3E566 /* SAMenuPrincipal.m in Sources */,
+				0030C3BB18A278EA00EBAABB /* IngesarViewController.m in Sources */,
 				00BFD4E918A137A000F8A83D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Moski/Desktop/SnapChat/SnapChat,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnapChat/SnapChat-Prefix.pch";
 				INFOPLIST_FILE = "SnapChat/SnapChat-Info.plist";
@@ -373,6 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Moski/Desktop/SnapChat/SnapChat,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnapChat/SnapChat-Prefix.pch";
 				INFOPLIST_FILE = "SnapChat/SnapChat-Info.plist";
@@ -442,6 +552,7 @@
 				00BFD50718A137A000F8A83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00BFD50818A137A000F8A83D /* Build configuration list for PBXNativeTarget "SnapChatTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +561,7 @@
 				00BFD50A18A137A000F8A83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
