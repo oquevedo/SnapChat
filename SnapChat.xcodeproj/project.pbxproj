@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0030C3BB18A278EA00EBAABB /* IngesarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030C3BA18A278EA00EBAABB /* IngesarViewController.m */; };
+		0042F07818A5535300A1E084 /* CamaraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042F07718A5535300A1E084 /* CamaraViewController.m */; };
+		009D9BE918C10185004B706D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 009D9BE818C10185004B706D /* TPKeyboardAvoidingScrollView.m */; };
+		009E0BBB18BD54AA00D0F905 /* ImagenesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009E0BBA18BD54AA00D0F905 /* ImagenesViewController.m */; };
 		00A061F518A155B400081E62 /* SABuzonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A061F418A155B400081E62 /* SABuzonViewController.m */; };
 		00BFD4DD18A137A000F8A83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4DC18A137A000F8A83D /* Foundation.framework */; };
 		00BFD4DF18A137A000F8A83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD4DE18A137A000F8A83D /* CoreGraphics.framework */; };
@@ -22,9 +25,6 @@
 		00BFD50018A137A000F8A83D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD4FE18A137A000F8A83D /* InfoPlist.strings */; };
 		00BFD50218A137A000F8A83D /* SnapChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BFD50118A137A000F8A83D /* SnapChatTests.m */; };
 		00BFD50C18A137E800F8A83D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */; };
-		00BFD51018A13B1400F8A83D /* Buzon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD50F18A13B1400F8A83D /* Buzon.png */; };
-		00BFD51218A13B1B00F8A83D /* Amigos.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD51118A13B1B00F8A83D /* Amigos.png */; };
-		00BFD51418A13B2200F8A83D /* Camara.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BFD51318A13B2200F8A83D /* Camara.png */; };
 		00BFD51718A140AD00F8A83D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51618A140AD00F8A83D /* Parse.framework */; };
 		00BFD52118A1412500F8A83D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51818A1412400F8A83D /* AudioToolbox.framework */; };
 		00BFD52218A1412500F8A83D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51918A1412500F8A83D /* CFNetwork.framework */; };
@@ -35,9 +35,11 @@
 		00BFD52718A1412500F8A83D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51E18A1412500F8A83D /* Security.framework */; };
 		00BFD52818A1412500F8A83D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD51F18A1412500F8A83D /* StoreKit.framework */; };
 		00BFD52918A1412500F8A83D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BFD52018A1412500F8A83D /* SystemConfiguration.framework */; };
+		00F43C9B18C3DC9000748260 /* fondoNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F43C9A18C3DC9000748260 /* fondoNavBar.png */; };
 		00F545D118A2D35F00C3E566 /* RegistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D018A2D35F00C3E566 /* RegistroViewController.m */; };
 		00F545D418A3C24F00C3E566 /* SAMenuPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D318A3C24F00C3E566 /* SAMenuPrincipal.m */; };
 		00F545D818A3F94D00C3E566 /* EditarAmigosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */; };
+		00F545DB18A4183300C3E566 /* AmigosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F545DA18A4183300C3E566 /* AmigosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,12 @@
 /* Begin PBXFileReference section */
 		0030C3B918A278EA00EBAABB /* IngesarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngesarViewController.h; sourceTree = "<group>"; };
 		0030C3BA18A278EA00EBAABB /* IngesarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngesarViewController.m; sourceTree = "<group>"; };
+		0042F07618A5535300A1E084 /* CamaraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamaraViewController.h; sourceTree = "<group>"; };
+		0042F07718A5535300A1E084 /* CamaraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamaraViewController.m; sourceTree = "<group>"; };
+		009D9BE718C10185004B706D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		009D9BE818C10185004B706D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		009E0BB918BD54AA00D0F905 /* ImagenesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagenesViewController.h; sourceTree = "<group>"; };
+		009E0BBA18BD54AA00D0F905 /* ImagenesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagenesViewController.m; sourceTree = "<group>"; };
 		00A061F318A155B400081E62 /* SABuzonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SABuzonViewController.h; sourceTree = "<group>"; };
 		00A061F418A155B400081E62 /* SABuzonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SABuzonViewController.m; sourceTree = "<group>"; };
 		00BFD4D918A137A000F8A83D /* SnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +80,6 @@
 		00BFD4FF18A137A000F8A83D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00BFD50118A137A000F8A83D /* SnapChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChatTests.m; sourceTree = "<group>"; };
 		00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		00BFD50F18A13B1400F8A83D /* Buzon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Buzon.png; sourceTree = "<group>"; };
-		00BFD51118A13B1B00F8A83D /* Amigos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amigos.png; sourceTree = "<group>"; };
-		00BFD51318A13B2200F8A83D /* Camara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camara.png; sourceTree = "<group>"; };
 		00BFD51618A140AD00F8A83D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		00BFD51818A1412400F8A83D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00BFD51918A1412500F8A83D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -85,12 +90,15 @@
 		00BFD51E18A1412500F8A83D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		00BFD51F18A1412500F8A83D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		00BFD52018A1412500F8A83D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00F43C9A18C3DC9000748260 /* fondoNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoNavBar.png; sourceTree = "<group>"; };
 		00F545CF18A2D35F00C3E566 /* RegistroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistroViewController.h; sourceTree = "<group>"; };
 		00F545D018A2D35F00C3E566 /* RegistroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistroViewController.m; sourceTree = "<group>"; };
 		00F545D218A3C24F00C3E566 /* SAMenuPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMenuPrincipal.h; sourceTree = "<group>"; };
 		00F545D318A3C24F00C3E566 /* SAMenuPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMenuPrincipal.m; sourceTree = "<group>"; };
 		00F545D618A3F94D00C3E566 /* EditarAmigosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarAmigosViewController.h; sourceTree = "<group>"; };
 		00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarAmigosViewController.m; sourceTree = "<group>"; };
+		00F545D918A4183300C3E566 /* AmigosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmigosViewController.h; sourceTree = "<group>"; };
+		00F545DA18A4183300C3E566 /* AmigosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmigosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0042F07918A5535700A1E084 /* Amigos */ = {
+			isa = PBXGroup;
+			children = (
+				00F545D918A4183300C3E566 /* AmigosViewController.h */,
+				00F545DA18A4183300C3E566 /* AmigosViewController.m */,
+				00F545D618A3F94D00C3E566 /* EditarAmigosViewController.h */,
+				00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */,
+			);
+			name = Amigos;
+			sourceTree = "<group>";
+		};
+		0099B13418A6F83C0023EE3B /* Buzon - camara */ = {
+			isa = PBXGroup;
+			children = (
+				0042F07618A5535300A1E084 /* CamaraViewController.h */,
+				0042F07718A5535300A1E084 /* CamaraViewController.m */,
+				00A061F318A155B400081E62 /* SABuzonViewController.h */,
+				00A061F418A155B400081E62 /* SABuzonViewController.m */,
+				009E0BB918BD54AA00D0F905 /* ImagenesViewController.h */,
+				009E0BBA18BD54AA00D0F905 /* ImagenesViewController.m */,
+			);
+			name = "Buzon - camara";
+			sourceTree = "<group>";
+		};
 		00BFD4D018A137A000F8A83D = {
 			isa = PBXGroup;
 			children = (
@@ -170,14 +202,13 @@
 			isa = PBXGroup;
 			children = (
 				00BFD50B18A137E800F8A83D /* MainStoryboard.storyboard */,
-				00A061F318A155B400081E62 /* SABuzonViewController.h */,
-				00A061F418A155B400081E62 /* SABuzonViewController.m */,
+				009D9BE718C10185004B706D /* TPKeyboardAvoidingScrollView.h */,
+				009D9BE818C10185004B706D /* TPKeyboardAvoidingScrollView.m */,
 				00BFD4EB18A137A000F8A83D /* SAAppDelegate.h */,
-				00F545D618A3F94D00C3E566 /* EditarAmigosViewController.h */,
-				00F545D718A3F94D00C3E566 /* EditarAmigosViewController.m */,
 				00BFD4EC18A137A000F8A83D /* SAAppDelegate.m */,
+				0099B13418A6F83C0023EE3B /* Buzon - camara */,
+				0042F07918A5535700A1E084 /* Amigos */,
 				00F545D518A3F90C00C3E566 /* Inicio */,
-				00BFD51518A13D8E00F8A83D /* Fotos */,
 				00BFD4EE18A137A000F8A83D /* Images.xcassets */,
 				00BFD4E318A137A000F8A83D /* Supporting Files */,
 			);
@@ -214,16 +245,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00BFD51518A13D8E00F8A83D /* Fotos */ = {
-			isa = PBXGroup;
-			children = (
-				00BFD50F18A13B1400F8A83D /* Buzon.png */,
-				00BFD51118A13B1B00F8A83D /* Amigos.png */,
-				00BFD51318A13B2200F8A83D /* Camara.png */,
-			);
-			name = Fotos;
-			sourceTree = "<group>";
-		};
 		00F545D518A3F90C00C3E566 /* Inicio */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +254,7 @@
 				00F545D018A2D35F00C3E566 /* RegistroViewController.m */,
 				0030C3B918A278EA00EBAABB /* IngesarViewController.h */,
 				0030C3BA18A278EA00EBAABB /* IngesarViewController.m */,
+				00F43C9A18C3DC9000748260 /* fondoNavBar.png */,
 			);
 			name = Inicio;
 			sourceTree = "<group>";
@@ -314,10 +336,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00BFD50C18A137E800F8A83D /* MainStoryboard.storyboard in Resources */,
-				00BFD51218A13B1B00F8A83D /* Amigos.png in Resources */,
 				00BFD4E718A137A000F8A83D /* InfoPlist.strings in Resources */,
-				00BFD51018A13B1400F8A83D /* Buzon.png in Resources */,
-				00BFD51418A13B2200F8A83D /* Camara.png in Resources */,
+				00F43C9B18C3DC9000748260 /* fondoNavBar.png in Resources */,
 				00BFD4EF18A137A000F8A83D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,13 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0042F07818A5535300A1E084 /* CamaraViewController.m in Sources */,
+				00F545DB18A4183300C3E566 /* AmigosViewController.m in Sources */,
 				00F545D118A2D35F00C3E566 /* RegistroViewController.m in Sources */,
 				00BFD4ED18A137A000F8A83D /* SAAppDelegate.m in Sources */,
 				00A061F518A155B400081E62 /* SABuzonViewController.m in Sources */,
+				009D9BE918C10185004B706D /* TPKeyboardAvoidingScrollView.m in Sources */,
 				00F545D818A3F94D00C3E566 /* EditarAmigosViewController.m in Sources */,
 				00F545D418A3C24F00C3E566 /* SAMenuPrincipal.m in Sources */,
 				0030C3BB18A278EA00EBAABB /* IngesarViewController.m in Sources */,
 				00BFD4E918A137A000F8A83D /* main.m in Sources */,
+				009E0BBB18BD54AA00D0F905 /* ImagenesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

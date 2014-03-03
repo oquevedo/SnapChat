@@ -13,10 +13,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [NSThread sleepForTimeInterval:2];  //Para hacer esperar la imagen de entrada
+    
     [Parse setApplicationId:@"kcPyusWwKopIa3j9U7wl0gn3AaRhilW9JrNLGg6f"
                   clientKey:@"v6Gsymk8Bf3uBT1OJBeW71npQXSkZJnYCVWQiLtO"];
     
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [self personalizarInterfazUsuario];
+
     
     return YES;
 }
@@ -46,6 +51,22 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Metoos de personalización
+
+-(void)personalizarInterfazUsuario
+{
+      //[[UINavigationBar appearance]setBarTintColor:[UIColor colorWithRed:  green:<#(CGFloat)#> blue:<#(CGFloat)#> alpha:<#(CGFloat)#>]]
+    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"fondoNavBar"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance]setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName, nil]];
+    [[UINavigationBar appearance]setTintColor:[UIColor whiteColor]];
+    
+    
+}
+
+-(UIStatusBarStyle)preferredSatusBarStyle{
+    return  UIStatusBarStyleLightContent;
 }
 
 @end

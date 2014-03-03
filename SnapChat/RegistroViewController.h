@@ -14,5 +14,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *campoClave;
 @property (weak, nonatomic) IBOutlet UITextField *campoConfrmarClave;
 - (IBAction)Registro:(id)sender;
+- (IBAction)cerrar:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imagenFondo;
 
 @end

@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IngesarViewController : UIViewController
+@interface IngesarViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *campoUsuario;
 @property (weak, nonatomic) IBOutlet UITextField *campoContraseña;
 - (IBAction)validarIngreso:(id)sender;
+- (IBAction)cerrar:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imagenFondo;
+
+-(void)logearUsuario;
 
 @end

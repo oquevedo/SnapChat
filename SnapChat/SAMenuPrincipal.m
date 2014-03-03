@@ -18,9 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	 self.navigationItem.hidesBackButton = YES;
-    
-     
+
+    if ([UIScreen mainScreen].bounds.size.height == 568) {
+        _imagenFondo.image = [UIImage imageNamed:@"fotochatFondo-568h"];
+    }
+
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setHidden:YES];
 }
 
 

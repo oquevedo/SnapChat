@@ -19,6 +19,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    if ([UIScreen mainScreen].bounds.size.height == 568) {
+        _imagenFondo.image = [UIImage imageNamed:@"fotochatFondo-568h"];
+    }
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    [self.navigationController.navigationBar setHidden:YES];
 }
 
 - (IBAction)Registro:(id)sender {
@@ -57,5 +66,11 @@
         }];
         
     }
+}
+
+
+- (IBAction)cerrar:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

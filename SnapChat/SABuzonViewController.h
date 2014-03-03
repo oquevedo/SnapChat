@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
-@interface SABuzonViewController : UITableViewController
+
+@interface SABuzonViewController : UITableViewController <UIGestureRecognizerDelegate>
+
+@property(nonatomic,strong) NSArray *mensajes;
+@property(nonatomic,strong) PFObject *mensajeSeleccionado;
+
 - (IBAction)cerrarSesion:(id)sender;
+
 
 @end

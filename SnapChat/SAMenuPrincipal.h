@@ -10,4 +10,5 @@
 
 @interface SAMenuPrincipal : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imagenFondo;
 @end

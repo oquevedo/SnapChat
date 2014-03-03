@@ -19,14 +19,49 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _campoContraseña.delegate = self;
+    _campoUsuario.delegate = self;
     //self.navigationItem.hidesBackButton = YES;
+    
+    if ([UIScreen mainScreen].bounds.size.height == 568) {
+        _imagenFondo.image = [UIImage imageNamed:@"fotochatFondo-568h"];
+    }
 	
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar setHidden:YES];  //Esconder la barra superior
 }
 
 - (IBAction)validarIngreso:(id)sender {
     
-      NSString *usuario = [self.campoUsuario.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-      NSString *clave = [self.campoContraseña.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    [self logearUsuario];
+}
+
+- (IBAction)cerrar:(id)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField //para este metodo se usa los delegate
+{
+    [textField resignFirstResponder];
+    if( _campoUsuario.selected)
+    {
+        
+    }
+    else{
+    [self logearUsuario];
+    }
+    return TRUE;
+}
+
+-(void)logearUsuario
+{
+    NSString *usuario = [self.campoUsuario.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    NSString *clave = [self.campoContraseña.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
     if ([usuario length] == 0) {
         UIAlertView *alerta = [[UIAlertView alloc]initWithTitle:@"Hey!" message:@"Ingresa el usuario correctamente" delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
